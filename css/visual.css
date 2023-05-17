@@ -1,16 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300&display=swap');
 
-.cabecalho :hover{
+.cabecalho {
     color: withe;
 }
-.body{
+.body {
     background-color: black;
-}
+  }
 .titulo{
     font-family: 'Bebas Neue', sans-serif;
     color: aliceblue;
+    position: absolute;
+    left: 55px;
+    font-size: 55px;
 }
 .texto{
     font-family: 'IBM Plex Mono', monospace;
     color: aliceblue;
+}
+.menu{
+    font-family: 'IBM Plex Mono', monospace;
+    color: aliceblue;
+}
+.menu ul li{
+    background-color: #3b0d5c; 
+
+    color: aliceblue;
+
+	float: left;
+
+	width: 200px;
+
+	height: 100%;
+
+	display: inline-block;
+
+	text-align: center;
+
+	line-height: 40px;
+
+	font-size: 24px;
+
+	position: relative;
 }
